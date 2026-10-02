@@ -1,0 +1,12 @@
+source,source_layer,source_value,surface,class,notes
+add_7.12_hr,add_coastline_high_res_polygon_v7_12,surface=land,land,land,rock and grounded ice together
+add_7.12_hr,add_coastline_high_res_polygon_v7_12,surface=ice shelf,ice shelf,ice shelf,
+add_7.12_hr,add_coastline_high_res_polygon_v7_12,surface=ice tongue,ice tongue,ice tongue,
+add_7.12_hr,add_coastline_high_res_polygon_v7_12,surface=rumple,rumple,rumple,
+aadc_6018,Coastline_py,feat_type=Island,land,Island,Heard incl. glaciated ground (ADD 'land' also includes grounded ice)
+aadc_6018,Coastline_py,feat_type=Offshore rock,land,Offshore rock,
+aadc_6013,Coastline_py,feat_type=Island,land,Island,
+aadc_6013,Coastline_py,feat_type=Offshore rock,land,Offshore rock,
+aadc_2812,macquarie_island_ambis,FEAT_TYPE=Island,land,Island,includes Judge and Clerk / Bishop and Clerk islets
+aadc_2812,macquarie_offshore_rocks_ambis,FEAT_TYPE=Offshore rock + VISIBILITY=Visible,land,Offshore rock,
+aadc_2812,macquarie_offshore_rocks_ambis,FEAT_TYPE=Offshore rock + VISIBILITY=Awash,land,Offshore rock (awash),kept for now; drop with class filter if unwanted
