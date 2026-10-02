@@ -15,6 +15,19 @@ data outputs are intended for source.coop.
 - `reformat/` - v0 build of one combined "best value" polygon layer
   (EPSG:3031): script, schema, crosswalk, sources table, quicklook
 
+## Data
+
+v0 combined polygon layer (GeoPackage, layer `coastline_py`, EPSG:3031,
+183 MB, sha256 `cbee9e8a09fc4766685d581781d18b0113da0663b6c4b6f0e46bbf16b8f3ed40`):
+
+https://github.com/mdsumner/aatcoast/releases/download/v0/coastline_best_v0.gpkg
+
+GDAL can read it in place:
+
+```
+ogrinfo -so /vsicurl/https://github.com/mdsumner/aatcoast/releases/download/v0/coastline_best_v0.gpkg coastline_py
+```
+
 ## Status
 
 v0 (2026-09-30): one polygon layer, one source per region, no splicing.
